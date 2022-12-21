@@ -9,6 +9,10 @@ function Seo({ title, description, robots }) {
             <meta name="robots" content={robots} />
             <meta charset="UTF-8" />
             <link rel="icon" href="/favicon.ico" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="MedStreet" />
         </Head>
     )
 }
